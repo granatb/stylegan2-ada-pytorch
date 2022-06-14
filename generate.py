@@ -127,3 +127,4 @@ if __name__ == "__main__":
     generate_images() # pylint: disable=no-value-for-parameter
 
 #----------------------------------------------------------------------------
+

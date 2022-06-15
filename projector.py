@@ -118,7 +118,6 @@ def project(
         loss.backward()
         optimizer.step()
         logprint(f'step {step+1:>4d}/{num_steps}: dist {dist:<4.2f} loss {float(loss):<5.2f}')
-
         # Save projected W for each optimization step.
         w_out[step] = w_opt.detach()[0]
 
